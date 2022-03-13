@@ -12,7 +12,7 @@ function App() {
      </div>
      <Brand/>
      <Gpt3/>
-     <Features/>
+     {/* <Features/> */}
      <Possiblity/>
      <Cta/>
      <Blog/>
