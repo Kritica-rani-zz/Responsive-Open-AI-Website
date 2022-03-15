@@ -1,8 +1,8 @@
 
 import './App.css'
 import './index.css'
-import{Blog,Features,Footer,Header,Possiblity,Gpt3} from './containers'
-import{Cta,Brand,Navbar} from './Component'
+import{Blog,Footer,Header,Possiblity,Gpt3} from './containers'
+import{Cta,Brand,Navbar,Feature} from './Component'
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,7 @@ function App() {
      </div>
      <Brand/>
      <Gpt3/>
-     {/* <Features/> */}
+     <Feature/>
      <Possiblity/>
      <Cta/>
      <Blog/>
